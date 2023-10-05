@@ -1,9 +1,6 @@
 # CTL-labyrinth
 
-related reference: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.84.046703
-
-
-
+<!--- related reference: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.84.046703 --->
 
 Consider a regular two-dimensional *N* x *N* grid of nodes (grid constant 1) that serve to connect the pathway. i.e., one visits adjacent nodes while walking through a maze. Each of the *N*<sup>2</sup> nodes has four next neighbors to which it can either be connected by a bond (active bond), or unconnected (passive bond). Boundary nodes have passive bonds that point outwards the grid, with the exception of the maze entry and exit bonds that are connected to the outside world (lets call the two bonds active "external" bonds, for reasons that will become clear later). If one enters a maze through the external bond one immediately meets a node, the so-called entry node. As soon as one has reached the exit node, one can use the exit bond to leave the maze.  
 
